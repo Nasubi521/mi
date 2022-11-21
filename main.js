@@ -50,7 +50,6 @@ window.addEventListener('load', function () {
         if (dot === roid.children.length) {
             dot = 0;
         }
-        console.log(dot);
         for (let i = 0; i < roid.children.length; i++) {
             roid.children[i].className = '';
         }
